@@ -1,0 +1,86 @@
+body {
+	background-color: #000000;
+	color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+th, td {
+	border: 1px solid white;
+	padding: 8px;
+	text-align: left;
+}
+
+a, a:visited {
+	color: #fb7e14;
+	text-decoration: none;
+	transition: text-shadow 0.3s ease-in-out;
+}
+
+a:hover {
+	text-shadow: 0 0 5px, 0 0 10px, 0 0 20px, 0 0 40px;
+}
+
+a[href*="intel.com"],
+a:visited[href*="intel.com"] {
+	color: #0068b5;
+}
+
+a[href*="amd.com"],
+a:visited[href*="amd.com"] {
+	color: #ed1c24;
+}
+
+a[href*="nvidia.com"],
+a:visited[href*="nvidia.com"] {
+	color: #76b900;
+}
+
+a[href*="msi.com"],
+a:visited[href*="msi.com"] {
+	color: #e60012;
+}
+
+a[href*="gskill.com"],
+a:visited[href*="gskill.com"] {
+	color: #e60012;
+}
+
+a[href*="sapphiretech.com"],
+a:visited[href*="sapphiretech.com"] {
+	color: #d1202f;
+}
+
+a[href*="samsung.com"],
+a:visited[href*="samsung.com"] {
+	color: #1428a0;
+}
+
+a[href*="logitech"],
+a:visited[href*="logitech"] {
+	color: #00b7fb;
+}
+
+a[href*="seagate.com"],
+a:visited[href*="seagate.com"] {
+	color: #6abf4b;
+}
+
+a[href*="a4tech.com"],
+a:visited[href*="a4tech.com"] {
+	color: #f49c1c;
+}
+
+a[href*="hp.com"],
+a:visited[href*="hp.com"] {
+	color: #0096d6;
+}
+
+a[href*="thermaltake.com"],
+a:visited[href*="thermaltake.com"] {
+	color: #c9cacc;
+}
