@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Lato;
+}
+
+a, a:visited {
+	color: #3F84E4;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #F0F0F0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
