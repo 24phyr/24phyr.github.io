@@ -40,6 +40,10 @@ a:visited[href*="nvidia.com"] {
 	color: #76b900;
 }
 
+a[href*="lg.com"],
+a:visited[href*=lg.com] {
+	color: #c4084f
+
 a[href*="msi.com"],
 a:visited[href*="msi.com"] {
 	color: #e60012;
@@ -58,6 +62,11 @@ a:visited[href*="sapphiretech.com"] {
 a[href*="samsung.com"],
 a:visited[href*="samsung.com"] {
 	color: #1428a0;
+}
+
+a[href*="alteclansing.com"],
+a:visited[href*="alteclansing.com"] {
+	color: #ffffff;
 }
 
 a[href*="logitech"],
