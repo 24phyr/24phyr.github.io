@@ -43,6 +43,7 @@ a:visited[href*="nvidia.com"] {
 a[href*="lg.com"],
 a:visited[href*=lg.com] {
 	color: #c4084f;
+}
 
 a[href*="msi.com"],
 a:visited[href*="msi.com"] {
