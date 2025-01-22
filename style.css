@@ -12,6 +12,10 @@ a, a:visited {
   color: #3F84E4;
 }
 
+body{
+  background: #333;
+}
+
 footer {
   margin-top: auto;
   background-color: #F0F0F0;
