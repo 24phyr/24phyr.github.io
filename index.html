@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Ryhpville</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,5 +17,15 @@
         <p>[məˈmɛntoʊ ˈmɔːri] · Latin</p>
         <small>“Remember you must die.”</small>
     </div>
+    
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load",function() {
+            $(".loader-wrapper").fadeOut("slow");
+            });
+    </script>
 </body>
 </html>
