@@ -2,24 +2,21 @@ body {
     background-color: black	
 }
 
-header {
-    font-family: "Bitcount Single Ink", system-ui;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: left;
-    margin-left: 20px;
-    font-size: x-large;
-}
-
-p {
+.neopolitan-dreams {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-style: normal;
-    color: #f0f0f0;
+    color: white;
     font-size: xx-large;
 }
 
+.content {
+    padding: 5px;
+    margin-right: 400px;
+    margin-top: 250px;
+}
+
 a, a:visited {
-    color: #f0f0f0;
     text-decoration: none;
+    color: white;
 }
